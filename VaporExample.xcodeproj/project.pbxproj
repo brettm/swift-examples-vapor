@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA485AF2B079B25002CF4DE /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485AE2B079B25002CF4DE /* LoadingView.swift */; };
+		ECA485B12B079B26002CF4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA485B02B079B26002CF4DE /* Assets.xcassets */; };
+		ECA485B52B079B26002CF4DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA485B42B079B26002CF4DE /* Preview Assets.xcassets */; };
+		ECA485BF2B079B26002CF4DE /* VaporExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485BE2B079B26002CF4DE /* VaporExampleTests.swift */; };
+		ECA485C92B079B26002CF4DE /* VaporExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485C82B079B26002CF4DE /* VaporExampleUITests.swift */; };
+		ECA485CB2B079B26002CF4DE /* VaporExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485CA2B079B26002CF4DE /* VaporExampleUITestsLaunchTests.swift */; };
+		ECA485D92B079BBB002CF4DE /* Vapor in Frameworks */ = {isa = PBXBuildFile; productRef = ECA485D82B079BBB002CF4DE /* Vapor */; };
+		ECA485E32B07A835002CF4DE /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485E22B07A835002CF4DE /* Server.swift */; };
+		ECA485E82B07A863002CF4DE /* WebAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485E62B07A863002CF4DE /* WebAppView.swift */; };
+		ECA485E92B07A863002CF4DE /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485E72B07A863002CF4DE /* WebView.swift */; };
+		ECA485EB2B07A870002CF4DE /* Web in Resources */ = {isa = PBXBuildFile; fileRef = ECA485EA2B07A870002CF4DE /* Web */; };
+		ECA485ED2B07A88F002CF4DE /* VaporExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485EC2B07A88F002CF4DE /* VaporExampleApp.swift */; };
+		ECA485F02B07A935002CF4DE /* VaporServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485EF2B07A935002CF4DE /* VaporServer.swift */; };
+		ECA485F32B07CB19002CF4DE /* WebApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECA485F22B07CB18002CF4DE /* WebApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA485BB2B079B26002CF4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA485A12B079B25002CF4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA485A82B079B25002CF4DE;
+			remoteInfo = VaporExample;
+		};
+		ECA485C52B079B26002CF4DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA485A12B079B25002CF4DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA485A82B079B25002CF4DE;
+			remoteInfo = VaporExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA485A92B079B25002CF4DE /* VaporExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VaporExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA485AE2B079B25002CF4DE /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		ECA485B02B079B26002CF4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA485B22B079B26002CF4DE /* VaporExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VaporExample.entitlements; sourceTree = "<group>"; };
+		ECA485B42B079B26002CF4DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ECA485BA2B079B26002CF4DE /* VaporExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaporExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA485BE2B079B26002CF4DE /* VaporExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporExampleTests.swift; sourceTree = "<group>"; };
+		ECA485C42B079B26002CF4DE /* VaporExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VaporExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA485C82B079B26002CF4DE /* VaporExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporExampleUITests.swift; sourceTree = "<group>"; };
+		ECA485CA2B079B26002CF4DE /* VaporExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaporExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECA485E22B07A835002CF4DE /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		ECA485E62B07A863002CF4DE /* WebAppView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebAppView.swift; sourceTree = "<group>"; };
+		ECA485E72B07A863002CF4DE /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		ECA485EA2B07A870002CF4DE /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		ECA485EC2B07A88F002CF4DE /* VaporExampleApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaporExampleApp.swift; sourceTree = "<group>"; };
+		ECA485EF2B07A935002CF4DE /* VaporServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VaporServer.swift; sourceTree = "<group>"; };
+		ECA485F12B07B11D002CF4DE /* VaporExample.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = VaporExample.xctestplan; sourceTree = "<group>"; };
+		ECA485F22B07CB18002CF4DE /* WebApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA485A62B079B25002CF4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA485D92B079BBB002CF4DE /* Vapor in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA485B72B079B26002CF4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA485C12B079B26002CF4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA485A02B079B25002CF4DE = {
+			isa = PBXGroup;
+			children = (
+				ECA485F12B07B11D002CF4DE /* VaporExample.xctestplan */,
+				ECA485AB2B079B25002CF4DE /* VaporExample */,
+				ECA485BD2B079B26002CF4DE /* VaporExampleTests */,
+				ECA485C72B079B26002CF4DE /* VaporExampleUITests */,
+				ECA485AA2B079B25002CF4DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA485AA2B079B25002CF4DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485A92B079B25002CF4DE /* VaporExample.app */,
+				ECA485BA2B079B26002CF4DE /* VaporExampleTests.xctest */,
+				ECA485C42B079B26002CF4DE /* VaporExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA485AB2B079B25002CF4DE /* VaporExample */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485EC2B07A88F002CF4DE /* VaporExampleApp.swift */,
+				ECA485AE2B079B25002CF4DE /* LoadingView.swift */,
+				ECA485EA2B07A870002CF4DE /* Web */,
+				ECA485DB2B079C4D002CF4DE /* ViewModel */,
+				ECA485DA2B079C43002CF4DE /* View */,
+				ECA485EE2B07A8AD002CF4DE /* Server */,
+				ECA485B02B079B26002CF4DE /* Assets.xcassets */,
+				ECA485B22B079B26002CF4DE /* VaporExample.entitlements */,
+				ECA485B32B079B26002CF4DE /* Preview Content */,
+			);
+			path = VaporExample;
+			sourceTree = "<group>";
+		};
+		ECA485B32B079B26002CF4DE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485B42B079B26002CF4DE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ECA485BD2B079B26002CF4DE /* VaporExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485BE2B079B26002CF4DE /* VaporExampleTests.swift */,
+			);
+			path = VaporExampleTests;
+			sourceTree = "<group>";
+		};
+		ECA485C72B079B26002CF4DE /* VaporExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485C82B079B26002CF4DE /* VaporExampleUITests.swift */,
+				ECA485CA2B079B26002CF4DE /* VaporExampleUITestsLaunchTests.swift */,
+			);
+			path = VaporExampleUITests;
+			sourceTree = "<group>";
+		};
+		ECA485DA2B079C43002CF4DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485E62B07A863002CF4DE /* WebAppView.swift */,
+				ECA485E72B07A863002CF4DE /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECA485DB2B079C4D002CF4DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485F22B07CB18002CF4DE /* WebApp.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ECA485EE2B07A8AD002CF4DE /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				ECA485E22B07A835002CF4DE /* Server.swift */,
+				ECA485EF2B07A935002CF4DE /* VaporServer.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA485A82B079B25002CF4DE /* VaporExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA485CE2B079B26002CF4DE /* Build configuration list for PBXNativeTarget "VaporExample" */;
+			buildPhases = (
+				ECA485A52B079B25002CF4DE /* Sources */,
+				ECA485A62B079B25002CF4DE /* Frameworks */,
+				ECA485A72B079B25002CF4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VaporExample;
+			packageProductDependencies = (
+				ECA485D82B079BBB002CF4DE /* Vapor */,
+			);
+			productName = VaporExample;
+			productReference = ECA485A92B079B25002CF4DE /* VaporExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA485B92B079B26002CF4DE /* VaporExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA485D12B079B26002CF4DE /* Build configuration list for PBXNativeTarget "VaporExampleTests" */;
+			buildPhases = (
+				ECA485B62B079B26002CF4DE /* Sources */,
+				ECA485B72B079B26002CF4DE /* Frameworks */,
+				ECA485B82B079B26002CF4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA485BC2B079B26002CF4DE /* PBXTargetDependency */,
+			);
+			name = VaporExampleTests;
+			productName = VaporExampleTests;
+			productReference = ECA485BA2B079B26002CF4DE /* VaporExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA485C32B079B26002CF4DE /* VaporExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA485D42B079B26002CF4DE /* Build configuration list for PBXNativeTarget "VaporExampleUITests" */;
+			buildPhases = (
+				ECA485C02B079B26002CF4DE /* Sources */,
+				ECA485C12B079B26002CF4DE /* Frameworks */,
+				ECA485C22B079B26002CF4DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA485C62B079B26002CF4DE /* PBXTargetDependency */,
+			);
+			name = VaporExampleUITests;
+			productName = VaporExampleUITests;
+			productReference = ECA485C42B079B26002CF4DE /* VaporExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA485A12B079B25002CF4DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					ECA485A82B079B25002CF4DE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					ECA485B92B079B26002CF4DE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ECA485A82B079B25002CF4DE;
+					};
+					ECA485C32B079B26002CF4DE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = ECA485A82B079B25002CF4DE;
+					};
+				};
+			};
+			buildConfigurationList = ECA485A42B079B25002CF4DE /* Build configuration list for PBXProject "VaporExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA485A02B079B25002CF4DE;
+			packageReferences = (
+				ECA485D72B079BBB002CF4DE /* XCRemoteSwiftPackageReference "vapor" */,
+			);
+			productRefGroup = ECA485AA2B079B25002CF4DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA485A82B079B25002CF4DE /* VaporExample */,
+				ECA485B92B079B26002CF4DE /* VaporExampleTests */,
+				ECA485C32B079B26002CF4DE /* VaporExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA485A72B079B25002CF4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA485B52B079B26002CF4DE /* Preview Assets.xcassets in Resources */,
+				ECA485EB2B07A870002CF4DE /* Web in Resources */,
+				ECA485B12B079B26002CF4DE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA485B82B079B26002CF4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA485C22B079B26002CF4DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA485A52B079B25002CF4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA485AF2B079B25002CF4DE /* LoadingView.swift in Sources */,
+				ECA485E92B07A863002CF4DE /* WebView.swift in Sources */,
+				ECA485F32B07CB19002CF4DE /* WebApp.swift in Sources */,
+				ECA485F02B07A935002CF4DE /* VaporServer.swift in Sources */,
+				ECA485E32B07A835002CF4DE /* Server.swift in Sources */,
+				ECA485ED2B07A88F002CF4DE /* VaporExampleApp.swift in Sources */,
+				ECA485E82B07A863002CF4DE /* WebAppView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA485B62B079B26002CF4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA485BF2B079B26002CF4DE /* VaporExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA485C02B079B26002CF4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA485CB2B079B26002CF4DE /* VaporExampleUITestsLaunchTests.swift in Sources */,
+				ECA485C92B079B26002CF4DE /* VaporExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA485BC2B079B26002CF4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA485A82B079B25002CF4DE /* VaporExample */;
+			targetProxy = ECA485BB2B079B26002CF4DE /* PBXContainerItemProxy */;
+		};
+		ECA485C62B079B26002CF4DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA485A82B079B25002CF4DE /* VaporExample */;
+			targetProxy = ECA485C52B079B26002CF4DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECA485CC2B079B26002CF4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECA485CD2B079B26002CF4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ECA485CF2B079B26002CF4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VaporExample/VaporExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VaporExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brettm.VaporExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA485D02B079B26002CF4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VaporExample/VaporExample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VaporExample/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brettm.VaporExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECA485D22B079B26002CF4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brettm.VaporExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaporExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VaporExample";
+			};
+			name = Debug;
+		};
+		ECA485D32B079B26002CF4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brettm.VaporExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VaporExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VaporExample";
+			};
+			name = Release;
+		};
+		ECA485D52B079B26002CF4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brettm.VaporExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaporExample;
+			};
+			name = Debug;
+		};
+		ECA485D62B079B26002CF4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.brettm.VaporExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VaporExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA485A42B079B25002CF4DE /* Build configuration list for PBXProject "VaporExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA485CC2B079B26002CF4DE /* Debug */,
+				ECA485CD2B079B26002CF4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA485CE2B079B26002CF4DE /* Build configuration list for PBXNativeTarget "VaporExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA485CF2B079B26002CF4DE /* Debug */,
+				ECA485D02B079B26002CF4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA485D12B079B26002CF4DE /* Build configuration list for PBXNativeTarget "VaporExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA485D22B079B26002CF4DE /* Debug */,
+				ECA485D32B079B26002CF4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA485D42B079B26002CF4DE /* Build configuration list for PBXNativeTarget "VaporExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA485D52B079B26002CF4DE /* Debug */,
+				ECA485D62B079B26002CF4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECA485D72B079BBB002CF4DE /* XCRemoteSwiftPackageReference "vapor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/vapor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.86.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECA485D82B079BBB002CF4DE /* Vapor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECA485D72B079BBB002CF4DE /* XCRemoteSwiftPackageReference "vapor" */;
+			productName = Vapor;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ECA485A12B079B25002CF4DE /* Project object */;
+}
